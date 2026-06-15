@@ -7,7 +7,7 @@ import winreg
 hkey = winreg.HKEY_LOCAL_MACHINE
 subkey = r'SOFTWARE\\Microsoft\Windows\\CurrentVersion\\RunOnce'
 
-value = '<path_to_python> <path_to_download_script'
+value = '<path_to_python> <path_to_download_script>'
 name = '7zip'
 
 #modify RunOnce key
